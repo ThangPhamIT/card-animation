@@ -19,11 +19,11 @@ container.addEventListener("mousemove", (e) => {
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
   // pop out
-  title.style.transform = "translateZ(100px)";
-  sneaker.style.transform = "translateZ(100px) rotateZ(-20deg)";
-  description.style.transform = "translateZ(100px)";
-  sizes.style.transform = "translateZ(100px)";
-  purchase.style.transform = "translateZ(75px)";
+  title.style.transform = "translateZ(80px)";
+  sneaker.style.transform = "translateZ(80px) rotateZ(-20deg)";
+  description.style.transform = "translateZ(80px)";
+  sizes.style.transform = "translateZ(80px)";
+  purchase.style.transform = "translateZ(20px)";
 });
 
 // animate out
